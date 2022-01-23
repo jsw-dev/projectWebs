@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class testController {
-/*    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {
         return "index";
-    }*/
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    }
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
     public String test() {
-        return "test";
+        return "conn_Test";
     }
 
 

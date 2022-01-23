@@ -1,5 +1,8 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
 <%@ page import="java.sql.DriverManager" %>
-<%@ page import="java.sql.Connection" %><%
+<%@ page import="java.sql.Connection" %>
+<%
     Connection conn=null;
     String driver = "com.mysql.jdbc.Driver";
     String url = "jdbc:mysql://webdb.cyancvkc1lxt.ap-northeast-2.rds.amazonaws.com:3306";
@@ -18,9 +21,11 @@
 %>
 <%
     if(connect==true){%>
-연결되었습니다.
-ok
+디비 연동 성공
+<br>
+Connection Success!!!
 <%}else{ %>
-연결에 실패하였습니다.
-fail
+디비 연동 실패
+<br>
+Connection Fail!!
 <%}%>
