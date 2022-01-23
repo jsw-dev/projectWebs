@@ -6,8 +6,7 @@ public class ConnectionTest {
     public static void main(String[] args) {
         try {
             Connection conn = DriverManager.getConnection(
-                    "jdbc:mysql://webdb.cyancvkc1lxt.ap-northeast-2.rds.amazonaws.com:3306/webdb?useUnicode=true\\\n" +
-                            "  &characterEncoding=utf8&useSSL=false&serverTimezone=UTC&autoReconnection=true",
+                    "jdbc:mysql://webdb.cyancvkc1lxt.ap-northeast-2.rds.amazonaws.com:3306",
                     "admin",
                     "admin157"
             );
