@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>test.jsp</h1>
-작성자 : 정상우
+작성자 : 정상우S2
 
 </body>
 </html>
