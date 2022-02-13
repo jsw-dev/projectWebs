@@ -8,4 +8,5 @@ public class testVOmg {
     private int idx;
     private String id;
     private String name;
+    
 }
