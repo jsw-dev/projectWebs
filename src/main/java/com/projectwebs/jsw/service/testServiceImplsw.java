@@ -1,8 +1,7 @@
 package com.projectwebs.jsw.service;
 
-import org.springframework.stereotype.Service;
+public class testServiceImplSw {
 
-@Service
-public interface testServiceImplsw {
-    //aa
+//    pbu
+
 }

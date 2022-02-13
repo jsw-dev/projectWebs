@@ -1,10 +1,12 @@
-package com.projectwebs.jsw.dao;
+package com.projectwebs.jsw.service;
 
 import com.projectwebs.jsw.vo.testVOsw;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-public interface testDAOsw {
+@Service
+public interface testServiceSw {
 
     public List<testVOsw> boradSelectAll(testVOsw testVO);
 }
