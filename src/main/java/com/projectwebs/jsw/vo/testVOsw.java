@@ -3,7 +3,7 @@ package com.projectwebs.jsw.vo;
 import lombok.Data;
 
 @Data
-public class testVO {
+public class testVOsw {
 
     private int idx;
     private String id;

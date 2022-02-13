@@ -15,6 +15,12 @@ public class testController {
         return "conn_Test";
     }
 
+    @RequestMapping(value = "/main", method = RequestMethod.GET)
+    public String main() {
+        return "main";
+    }
+
+
 
 
 }
