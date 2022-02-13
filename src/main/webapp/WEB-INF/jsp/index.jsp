@@ -12,7 +12,7 @@
          <a class="collapse-item" href="jsw/jsw">정상우</a>
     </div>
     <div class="bg-white py-2 collapse-inner rounded">
-        <a class="collapse-item" href="">이민규</a>
+        <a class="collapse-item" href="lmg/lmg">이민규</a>
     </div>
     <div class="bg-white py-2 collapse-inner rounded">
         <a class="collapse-item" href="">김은진</a>
