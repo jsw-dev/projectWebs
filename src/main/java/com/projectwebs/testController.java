@@ -17,6 +17,7 @@ public class testController {
 
     @RequestMapping(value = "/main", method = RequestMethod.GET)
     public String main() {
+
         return "main";
     }
 
